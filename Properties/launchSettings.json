@@ -1,8 +1,8 @@
 {
   "profiles": {
-    "dotnet_azure": {
+    "dotnet_function": {
       "commandName": "Project",
-      "commandLineArgs": "--port 7289",
+      "commandLineArgs": "--port 7270",
       "launchBrowser": false
     }
   }
