@@ -8,11 +8,11 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
-namespace myown.Function1
+namespace dotnet_azure
 {
-    public static class webrtcgame
+    public static class Webrtcgame
     {
-        [FunctionName("webrtcgame")]
+        [FunctionName("mywebrtcgame")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
             ILogger log)
